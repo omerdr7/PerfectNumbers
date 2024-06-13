@@ -16,8 +16,18 @@ public class PerfectNumbers {
         return control;
     }
 
-    public static void main(String[] args) {
+    public static int isPerfect2() {
+        int sayi = 0;
+        for (int i = 1000; i < 10000; i++) {
+            if (isPerfect(i)) {
+                sayi = i;
+            }
+        }
+        return sayi;
+    }
 
+    public static void main(String[] args) {
+        
     }
 
 }
